@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: posts
 title:  "Zapisywanie danych aplikacji - TinyDB"
+categories : Android
 ---
 {% highlight java %}
 TinyDB tinyDB = new TinyDB();
@@ -8,7 +9,7 @@ tinyDB.putInt("example_of_value",2);
 int data = tinyDB.get("example_of_value");
 {% endhighlight %}
 
-Wygląda prosto? Poznaj i zakochaj się w świetnej alternatywie przechowywania informacji pomiędzy uruchomieniami aplikacji.
+Wygląda prosto?! Poznaj i zakochaj się w świetnej alternatywie przechowywania informacji pomiędzy uruchomieniami aplikacji.
 
 Aby w przechwycić, pobrać lub zapisać dane w trakcie wykonywania się aplikacji, ale nie tylko pomiędzy aktywnościami, ale stale przy każdym kolejnym uruchomieniu się aplikacji, najczęstszymi rozwiązaniami są SharedPreferences lub SQLite , jednak gdy tylko zaczniemy czytać w jaki sposób je wykorzystać lub jeżeli już dobrze je znamy , nie są to szczególnie dla początkujących  najkrótsze  prz najprostsze rozwiązania . A co jeśli można byłoby tak w trzech linijkach kodu - STWORZYĆ, ZAPISAĆ I ODCZYTAĆ dane? Brzmi pięknie , nieprawdaż ? To właśnie umożliwia nam klasa TinyDB.
 
@@ -40,7 +41,9 @@ tinydb.putListObject("a",jakasListaObiektow);
 ![Alt text](/assets/images/posts/1/1.png)
 4. Otwieramy drzewo naszego projektu w AndroidStudio klikamy prawym przyciskiem na gson-2.4.jar a następnie klikamy opcje Add Lib.
 ![Alt text](/assets/images/posts/1/2.png)
+
 Musimy pamiętać ze musimy mieć wybraną opcje drzewa wszystkich plików w projekcie, gdyż inaczej nie znajdziemy w nim folderu libs:
+
 ![Alt text](/assets/images/posts/1/3.png)
 
 

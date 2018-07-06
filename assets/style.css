@@ -1,13 +1,11 @@
-header{
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
-}
+
+
 body {
     font: 400 13px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #fff;
+    width:100
 }
-footer {
+#footer {
   text-align: center;
   font-family: 'Poiret One', cursive;
   font-size: 15px;
@@ -27,9 +25,7 @@ a:visited {
     color: #000;
 }
 
-header ol a:hover {
-   text-decoration: none;
- }
+
 
 .wrapper {
     max-width: -webkit-calc(800px - (70px * 2));
@@ -40,8 +36,10 @@ header ol a:hover {
     letter-spacing: 2px;
     line-height: 1;
     text-align: center;
+    margin-top: 50px;
     font-family: 'Poiret One', cursive;
 }
+
 #container
 {
    width: 1000px;
@@ -51,9 +49,11 @@ header ol a:hover {
 }
 #menu
 {
-    width: 1000px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     text-align: center;
+    margin: auto;
+    margin-top : 25px;
 
 }
 
@@ -157,15 +157,31 @@ box-shadow: inset 0px 0px 56px 2px rgba(224,127,127,1);
 
 
 header ol
-{ padding: 0px;
-
+{
   list-style-type: none;
-  height: 30px;
+  height: 100%;
   line-height: 200%;
   font-size : 23px;
   display: inline-block;
 
 }
+header {
+  width: auto;
+  height: auto;
+  float: none;
+}
+#header {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.header_image {
+  display: inline-block;
+  vertical-align: middle;
+}
+header ol a:hover {
+   text-decoration: none;
+ }
 
 header ol a
 {
@@ -174,7 +190,6 @@ header ol a
     display: block;
     font-weight: bold;
     font-family: 'Poiret One', cursive;
-    height: 85px;
 }
 
 header ol > li
@@ -182,7 +197,9 @@ header ol > li
     float: left;
     width: 200px;
     text-align: center;
-    border-right: 1px dashed #990033;
+    border: 1px dashed #990033;
+    margin-left: 10px;
+    padding: 20px;
 }
 
 header ol > li:first-child
@@ -241,4 +258,8 @@ header ol > li > ul > li
 }
 .post-content p{
     text-indent: 2em;
+}
+.center {
+  text-align: center;
+  list-style-position: inside;
 }
