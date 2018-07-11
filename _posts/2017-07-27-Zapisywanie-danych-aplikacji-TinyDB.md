@@ -2,6 +2,7 @@
 layout: posts
 title:  "Zapisywanie danych aplikacji - TinyDB"
 categories : Android
+comments: true
 ---
 {% highlight java %}
 TinyDB tinyDB = new TinyDB();
