@@ -1,9 +1,14 @@
-# ewelinamysiak.com
-# My blog about programming - enjoy :) 
+
+# My blog about programming - enjoy :)
+This blog was created with Jekyll:
+<a href="https://ewelinamysiak.com/"> <img src="/assets/images/github/giphy.gif" width=50% height="auto" />  </a>
 
 ## Main page:
-![myblog](/assets/images/github/mainpage.gif)
+<a href="https://ewelinamysiak.com/">
+<img src="/assets/images/github/mainpage.gif" width=80% height="auto" /> </a>
 
 ## Articles:
-![myblog](/assets/images/github/mainpage.gif)
-This blog had created with Jekyll.
+<a href="https://ewelinamysiak.com/posts/">
+<img src="/assets/images/github/posts.gif" width=80% height="auto" /></a>
+
+<wycentrowac i zmniejszyć gify!>
