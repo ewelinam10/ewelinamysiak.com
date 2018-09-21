@@ -39,13 +39,13 @@ tinydb.putListObject("a",jakasListaObiektow);
 1. Stwórz klase TinyDB i skopiuj zawartość :  [https://github.com/kcochibili/TinyDB--Android-Shared-Preferences-Turbo/blob/master/TinyDB.java][TinyDB] odkomentuj w niej funkcje takie jak putObject.
 2. Ściągnij plik json-2.4.jar : [http://repo1.maven.org/maven2/com/google/code/gson/gson/2.4/][Gson]
 3. Pobrany plik wklejamy do folderu libs.
-![Alt text](/assets/images/posts/1/1.png)
+![Alt text](/assets/images/posts/1/1.png){: .center-image }
 4. Otwieramy drzewo naszego projektu w AndroidStudio klikamy prawym przyciskiem na gson-2.4.jar a następnie klikamy opcje Add Lib.
-![Alt text](/assets/images/posts/1/2.png)
+![Alt text](/assets/images/posts/1/2.png){: .center-image }
 
 Musimy pamiętać ze musimy mieć wybraną opcje drzewa wszystkich plików w projekcie, gdyż inaczej nie znajdziemy w nim folderu libs:
 
-![Alt text](/assets/images/posts/1/3.png)
+![Alt text](/assets/images/posts/1/3.png){: .center-image }
 
 
 

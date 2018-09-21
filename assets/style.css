@@ -1,4 +1,10 @@
 
+.center-image
+{
+    margin: auto;
+    padding: 10px;
+    display: block;
+}
 
 body {
     font: 400 13px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
