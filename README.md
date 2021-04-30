@@ -11,4 +11,3 @@ This blog was created with Jekyll:
 <a href="https://ewelinamysiak.com/posts/">
 <img src="/assets/images/github/posts.gif" width=80% height="auto" /></a>
 
-<wycentrowac i zmniejszyć gify!>
